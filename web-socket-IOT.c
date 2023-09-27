@@ -8,7 +8,6 @@
 const char* ssid = ".";
 const char* password = "!abc.269";
 
-
 #define MAX_MESSAGES 50
 
 String messages[MAX_MESSAGES];
