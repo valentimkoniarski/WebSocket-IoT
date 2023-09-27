@@ -28,7 +28,6 @@ mensagemInput.addEventListener('keyup', function (event) {
 
 /**
  * @param {string} message
- * @param message
  * @return {void}
  * Função para adicionar mensagens ao chatBox
  */
@@ -41,7 +40,6 @@ const adicionarMensagem = (message) => {
 
 /**
  * @param {string} message
- * @param message
  * @return {void}
  * Função para enviar mensagens ao servidor WebSocket
  */
