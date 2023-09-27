@@ -5,8 +5,9 @@
 #include <ESPAsyncWebServer.h>
 
 // TODO Definir credenciais da rede WiFi
-const char* ssid = "TP-Link_0BC0";
-const char* password = "95878034";
+const char* ssid = ".";
+const char* password = "!abc.269";
+
 
 #define MAX_MESSAGES 50
 

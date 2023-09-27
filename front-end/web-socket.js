@@ -2,7 +2,8 @@ const chatBox = document.getElementById('chat');
 const mensagemInput = document.getElementById('mensagemInput');
 const enviarMensagemBotao = document.getElementById('enviarMensagemBotao');
 
-const IP_LOCAL = '192.168.1.108';
+// TODO Alterar para o IP da rede
+const IP_LOCAL = '172.20.10.14';
 const ws = new WebSocket(`ws://${IP_LOCAL}:81/`);
 const webServerUrl = `http://${IP_LOCAL}:80/`;
 
