@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h2>Chat em Tempo Real</h2>
+    <div id="chat"></div>
+    <input type="text" id="mensagemInput" placeholder="Digite uma mensagem...">
+    <button id="enviarMensagemBotao">Enviar</button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <label for="nomeInput">Nome:</label>
+            <input type="text" id="nomeInput" placeholder="Digite seu nome...">
+            <button id="enviarNomeBotao" disabled>Enviar</button>
+        </div>
+    </div>
+</div>
+
+<script src="./modal.js"></script>
+<script src="./web-socket.js"></script>
+
+</body>
+</html>

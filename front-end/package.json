@@ -1,0 +1,17 @@
+{
+  "name": "websocket-iot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "live-server --port=8080 --host=localhost --no-browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valentimkoniarski/WebSocket-IoT"
+  },
+  "author": "Valentim Koniarski Junior",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
