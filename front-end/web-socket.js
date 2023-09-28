@@ -53,8 +53,6 @@ const enviarMensagem = (message) => {
 const buscarHistoricoMensagens = async () => {
     try {
         const response = await fetch(`${webServerUrl}mensagens-historico`);
-        console.log('response')
-        console.log(response)
         if (!response.ok) {
             throw new Error(`Erro na solicitação: ${response.status} ${response.statusText}`);
         }
